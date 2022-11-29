@@ -1,13 +1,9 @@
-pragma solidity >=0.7.0 <0.9.0;
+contract DataTypes {
 
-contract HelloWorld {
-    uint256 number;
-
-    function store(uint256 num) public {
-        number = num;
-    }
-
-    function get() public view returns (uint256) {
-        return number;
-    }
+    uint public smallNumber = 9;
+    int public negativeNumber = -7;
+    address public zeroAddress = address(0);
+    bool public canEdit = true;
+    int256 public test;
+    
 }
