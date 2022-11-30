@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "claimRewards",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[]",
+						"name": "array",
+						"type": "int256[]"
+					},
+					{
+						"internalType": "int256",
+						"name": "targetSum",
+						"type": "int256"
+					}
+				],
+				"name": "submitChallenge",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256[]",
+						"name": "solution",
+						"type": "int256[]"
+					}
+				],
+				"name": "submitSolution",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EtherMath.sol": "EtherMath"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EtherMath.sol": {
+			"keccak256": "0xa15fdf5fc867936b2b3256d59c053e748a847bb5df606458b2ca43b057a8a35e",
+			"urls": [
+				"bzz-raw://41247815213f4f33f9395cfd2f0b709dd5fc429328bdf38578f6120cc206b1ee",
+				"dweb:/ipfs/QmVMQjETRwa35562Xktqk2U9tXfVVWsyyYntuQYp7n4yUR"
+			]
+		}
+	},
+	"version": 1
+}
