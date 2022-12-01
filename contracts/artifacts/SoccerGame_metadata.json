@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_homeTeam",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_awayTeam",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "awayTeamScored",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getWinningTeam",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "homeTeamScored",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ScoreTracker.sol": "SoccerGame"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ScoreTracker.sol": {
+			"keccak256": "0xf0782821aa267e1f76208f87e33a9ee797a8b80c053d95ac3853776ca8b0eca4",
+			"urls": [
+				"bzz-raw://4b66de1a3ae6f853aff44515bd98602b4f347d55989d1c6a743e77135cc530e2",
+				"dweb:/ipfs/QmVbHf3VMF5PFSt4Utwz9tMLmtEqS6jSFKScfjZWL4CJ6F"
+			]
+		}
+	},
+	"version": 1
+}
